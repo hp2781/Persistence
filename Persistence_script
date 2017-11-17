@@ -13,7 +13,6 @@ devtools::install_github(repo="stuartgordonreid/emh")
 install.packages("tseries")
 library(tseries)
 
-## this is the new brach testing for pull request and commiting.. lets see how it works..
 
 elapsed_months <- function(end_date, start_date) {
   ed <- as.POSIXlt(end_date)
